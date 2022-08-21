@@ -1,0 +1,133 @@
+.navbarWrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+    display: flex;
+    align-items: center;
+}
+.navbarWrapper .nav {
+    margin-left: auto;
+    font-size: 16px;
+    padding: 20px 0;
+    max-width: calc(100% - 210px);
+    gap: 30px;
+}
+.cartContainer{
+    padding-top: 150px;
+    min-height: 100vh;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.cartContentWrapper{
+    padding: 30px 40px;
+    border: 1px solid #bddca9;
+    border-radius: 5px;
+}
+.cartContainer h2{
+    text-align: center;
+    padding: 20px 0 40px;
+    color: #064635;
+    font-size: 32px;
+    font-weight: 800;
+}
+.checkoutMenu{
+    text-align: center;
+}
+.checkoutMenu a{
+    font-size: 18px;
+    text-decoration: none;
+    color: lightslategray;
+}
+.checkoutMenu:hover a{
+    color: #99c579;
+}
+.cartContent{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.cartItemImg{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+.cartItemImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cartInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 215px);
+}
+.cartInfo h4{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.updateCart{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.updateCart span{
+    font-size: 20px;
+    color: gray;
+}
+.updateCartButton{
+    padding: 1px 8px;
+    border-color: rgb(65, 121, 86);
+    color: rgb(65, 121, 86);;
+}
+.updateCartButton:hover{
+    background-color: #accea6;
+}
+.cartPrice{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.subtotalWrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: rgb(65, 121, 86);;
+}
+.subTotalText{
+    font-size: 20px;
+    font-weight: 600;
+}
+.subTotalPrice{
+    margin-left: auto;
+    font-size: 22px;
+    font-weight: 500;
+}
+.checkoutButton{
+    background-color: #064635 !important;
+    padding: 10px 15px;
+    margin: 40px 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    display: block;
+    outline: none;
+    width: 100%;
+}
+.checkoutButton:hover{
+    background-color: #7ec472 !important;
+}
+.footerWrapper{
+    width: 100%;
+    bottom: 0;
+    float: left;
+}
